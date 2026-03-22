@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:indigo-calendar-785621.framer.app)",
+      "WebFetch(domain:aditivijay.netlify.app)",
+      "Read(//Users/yashkothari/Downloads/**)",
+      "Bash(sort -t/ -k6)",
+      "Bash(ls /tmp/*.jpg /tmp/*.png)",
+      "Read(//Users/yashkothari/Desktop/**)",
+      "Bash(sips -z 32768 1828 \"/Users/yashkothari/Downloads/stitch_creative_designer_portfolio/emkG58dmDBzIOR2IP3Q1a9u4m4 \\(3\\).jpg\" --getProperty pixelWidth --getProperty pixelHeight)",
+      "Bash(sips \"/Users/yashkothari/Downloads/stitch_creative_designer_portfolio/emkG58dmDBzIOR2IP3Q1a9u4m4 \\(3\\).jpg\" --getProperty pixelWidth --getProperty pixelHeight)",
+      "Bash(sips \"/Users/yashkothari/Downloads/stitch_creative_designer_portfolio/emkG58dmDBzIOR2IP3Q1a9u4m4 \\(3\\).jpg\" --cropToHeightWidth 1050 430 --cropOffset 860 710 --out \"/Users/yashkothari/Downloads/stitch_creative_designer_portfolio/public/assets/girl-portrait.jpg\")",
+      "Bash(python3:*)"
+    ]
+  }
+}
